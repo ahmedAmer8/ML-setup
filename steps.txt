@@ -8,4 +8,4 @@
 5. create setup.py and requirements.txt
 6. create src folder and __init__.py file inside it
 7. build the setup.py and add -e . to the requirements
-
+8. create components, pipeline, logger and exception files
