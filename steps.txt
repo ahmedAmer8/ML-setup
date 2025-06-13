@@ -1,0 +1,11 @@
+1. create the project GitHub repo
+2. create the directory and link your repo with the project
+    push code while you go
+3. create the venv using conda, activate it.
+4. create gitignore in the github repe and choose python, 
+    git pull it from remote
+
+5. create setup.py and requirements.txt
+6. create src folder and __init__.py file inside it
+7. build the setup.py and add -e . to the requirements
+
