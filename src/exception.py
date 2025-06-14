@@ -1,4 +1,6 @@
 import sys
+from src.logger import logging
+
 
 def error_message_details(error, error_detail:sys):
     """Return a formatted error message with details from the exception."""
@@ -23,4 +25,5 @@ class CustomException(Exception):
     def __str__(self):
         """Return the string representation of the custom exception."""
         return self.error_message
+    
     
