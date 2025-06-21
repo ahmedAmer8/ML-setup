@@ -6,4 +6,5 @@ xgboost
 seaborn
 matplotlib
 ipykernel
+dill
 # -e .

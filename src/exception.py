@@ -9,8 +9,8 @@ def error_message_details(error, error_detail:sys):
     file_name = exc_traceback.tb_frame.f_code.co_filename
     line_number = exc_traceback.tb_lineno
 
-    error_message = f"Error occured in python script name {file_name} in \
-     line number {line_number} error message {str(error)}\n"
+    error_message = f"Error occured in python script name {file_name} in\
+    line number {line_number} error message {str(error)}\n"
 
     return error_message
 
